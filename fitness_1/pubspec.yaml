@@ -59,7 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - fitness_1/assets/img/
+    - assets/img/
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -78,7 +78,7 @@ flutter:
       fonts:
         - asset: fitness_1/assets/font/Poppins-Regular.ttf
         - asset: fitness_1/assets/font/Poppins-Bold.ttf
-          style: bold
+          weight: 700
     
   #
   # For details regarding fonts from package dependencies,
