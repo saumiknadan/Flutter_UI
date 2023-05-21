@@ -76,8 +76,8 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - asset: fitness_1/assets/font/Poppins-Regular.ttf
-        - asset: fitness_1/assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Bold.ttf
           weight: 700
     
   #
