@@ -2,6 +2,7 @@ import 'package:fitness_1/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fitness_1/pages/login_page.dart';
 
+
 void main() {
   runApp(MyApp());
 }
@@ -14,9 +15,11 @@ class MyApp extends StatelessWidget {
       //home: HomePage(), //amra route ongshe eta set korechi
       themeMode: ThemeMode.light,
       theme: ThemeData(
-          primarySwatch: Colors.blueGrey,  //eta primary color dibe.. r base color wise onno gulo change kore nibe
-          scaffoldBackgroundColor: Colors.white), 
-          
+          primarySwatch: Colors
+              .blueGrey, //eta primary color dibe.. r base color wise onno gulo change kore nibe
+         
+          scaffoldBackgroundColor: Colors.white),
+
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
