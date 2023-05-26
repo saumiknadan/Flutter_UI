@@ -3,7 +3,6 @@ import 'package:fitness_1/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:fitness_1/pages/login_page.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -18,13 +17,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors
               .blueGrey, //eta primary color dibe.. r base color wise onno gulo change kore nibe
-         
+
           scaffoldBackgroundColor: Colors.white),
 
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      //initialRoute: "/home",
+      debugShowCheckedModeBanner: false,
+      initialRoute: "/home",
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),

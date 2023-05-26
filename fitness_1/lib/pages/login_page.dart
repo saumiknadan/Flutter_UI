@@ -10,6 +10,8 @@ class _LoginPageState extends State<LoginPage> {
   // variable declare part
   String name = "";
   bool changeButton = false;
+
+  // ei formkey variablek use kore username & password er ekta condition set kore porer page e jawar kaj kora hoyeche
   final _formKey = GlobalKey<FormState>();
 
   moveToHome(BuildContext context) async {
@@ -33,7 +35,6 @@ class _LoginPageState extends State<LoginPage> {
           "Login",
         ),
       ),
-      
       body: SingleChildScrollView(
         child: Form(
           key: _formKey,
