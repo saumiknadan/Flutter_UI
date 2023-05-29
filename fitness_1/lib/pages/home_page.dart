@@ -1,7 +1,6 @@
 import 'package:fitness_1/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
-
 class HomePage extends StatelessWidget {
   int days = 30;
   String name = "Saumik";
@@ -10,7 +9,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catelog App"),
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        iconTheme: IconThemeData(color: Colors.black),
+        title: Text(
+          "Catelog App",
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child:

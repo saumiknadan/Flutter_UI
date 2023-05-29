@@ -81,6 +81,8 @@ fonts:
       - asset: assets/font/Poppins-Bold.ttf
         weight: 700
 
+
+
     
   #
   # For details regarding fonts from package dependencies,
